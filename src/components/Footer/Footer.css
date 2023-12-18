@@ -1,0 +1,25 @@
+.footer{
+    padding: 5% 0;
+}
+
+.icon{
+    transform: 1s;
+    cursor: pointer;
+}
+
+.icon:hover{
+    transform: scale(1.1);
+}
+
+.footer h6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer h6 a{
+    text-decoration: none;
+    cursor: pointer;
+    /*you can change color*/
+    color: rgb(255, 177, 177);
+}

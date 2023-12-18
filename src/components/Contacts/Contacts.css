@@ -1,0 +1,26 @@
+.contacts{
+    margin-top: 8%;
+    padding: 8% 0 7% 0;
+    justify-content: center;
+    justify-items: center;
+    /*You can change color*/
+    background: radial-gradient(circle at 0.4% -0.6%, rgb(143, 170, 210) 0%, rgb(255, 177, 177) 90%);
+}
+
+.container h1{
+    margin-bottom: 10%;
+}
+
+.contacts .container{
+   width: 500px;
+}
+
+@media only screen and (max-width: 728px){
+    .contacts h1{
+        margin-bottom: 15%;
+    }
+
+    .contacts .container{
+        width: 300px;
+    }
+}

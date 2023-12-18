@@ -1,0 +1,51 @@
+.home{
+    padding: 3% 0;
+    font-size: 80px;
+    text-align: center;
+    justify-content: center;
+}
+
+.home div{
+    margin-top: 8%;
+    text-align: center;
+    justify-content: center;
+}
+
+.name{
+    /*You can change color*/
+    background: radial-gradient(circle at 0.4% -0.6%, rgb(143, 170, 210) 0%, rgb(255, 177, 177) 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.profession{
+    /*You can change color*/
+    background: radial-gradient(circle at 0.4% -0.6%, rgb(143, 170, 210) 0%, rgb(255, 177, 177) 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title{
+    margin-top: 2%;
+    animation-delay: 0.25s;
+}
+
+.subTitle{
+    animation-delay: 0.50s;
+}
+
+.items-center {
+    align-items: center;
+}
+
+
+.justify-center {
+    justify-content: center;
+}
+
+@media only screen and (max-width: 728px){
+    .home{
+        font-size: 60px;
+        padding: 20% 0 ;
+    }
+}
